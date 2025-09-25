@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Patrick Hand';
+    src: url(../fonts/PatrickHand-Regular.ttf) format('ttf');
+    src: url(../fonts/PatrickHand-Regular.woff) format('woff');
+}
+
+html{
+    background-color: black;
+}
+
+body {
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+body h1 {
+    font-family: 'Patrick Hand';
+    font-size: 50px;
+    text-align: center;
+    color: lightgrey;
+}
+
+body p {
+    font-family: 'Patrick Hand';
+    font-size: 32px;
+    position: relative;
+    color: lightgrey;
+    display: block;
+}
+
+footer {
+    font-family: 'Patrick Hand';
+    font-size: 32px;
+    position: relative;
+    color: lightgrey;
+    display: block;
+}
+
+img {
+    display: block;
+	width: 10%;
+    position: relative;
+    
+}
