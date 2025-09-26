@@ -1,2 +1,5 @@
 @charset "utf-8";
 
+div.movie-slideshow {
+    max-width: 1080px;
+}

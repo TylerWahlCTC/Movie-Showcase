@@ -8,6 +8,7 @@
 
 html{
     background-color: black;
+    background-image: url(../imgs/page1_bg.jpg);
 }
 
 body {
@@ -16,7 +17,7 @@ body {
    max-width: 960px;
    margin-left: auto;
    margin-right: auto;
-   background-image: url(../imgs/page1_bg.jpg);
+   background-image: url(../imgs/abstract-black-and-gold-background-free-vector.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -25,17 +26,18 @@ body h1 {
     font-family: 'Patrick Hand';
     font-size: 50px;
     text-align: center;
-    color: lightgrey;
+    color: #8272FC;
 }
 
-body p {
+body article p {
     font-family: 'Patrick Hand';
     font-size: 32px;
     position: relative;
-    color: lightgrey;
+    color: #8272FC;
     display: block;
-    padding-right: 20%;
-    text-align: justify;
+    padding-right: 30%;
+    padding-left: 30%;
+    text-align: center;
 }
 
 footer {
@@ -57,7 +59,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    background-color: rgba(255, 6, 48, 0.582);
+    background-color: rgba(255, 38, 74, 0.877);
 }
 
 img {
