@@ -16,6 +16,9 @@ body {
    max-width: 960px;
    margin-left: auto;
    margin-right: auto;
+   background-image: url(../imgs/page1_bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 body h1 {
@@ -31,6 +34,8 @@ body p {
     position: relative;
     color: lightgrey;
     display: block;
+    padding-right: 20%;
+    text-align: justify;
 }
 
 footer {
@@ -41,9 +46,23 @@ footer {
     display: block;
 }
 
+a:link, a:visited {
+  background-color: #ff1706;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.7em;
+}
+
+a:hover {
+    background-color: rgba(255, 6, 48, 0.582);
+}
+
 img {
     display: block;
-	width: 10%;
+	width: 100%;
     position: relative;
-    
+    padding-left: 100%;
 }
