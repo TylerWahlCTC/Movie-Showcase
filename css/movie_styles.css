@@ -1,5 +1,47 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'Patrick Hand';
+    src: url(../fonts/PatrickHand-Regular.ttf) format('ttf');
+    src: url(../fonts/PatrickHand-Regular.woff) format('woff');
+}
+
+body {
+    background-image: url(../imgs/abstract-black-and-gold-background-free-vector.jpg)
+}
+
 div.movie-slideshow {
-    max-width: 1080px;
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+div.movie-tabs {
+    text-align: center;
+}
+
+.movieNumber:hover, .movie-display-left:hover, .movie-display-right:hover {
+    background-color: grey;
+}
+
+footer {
+    font-family: 'Patrick Hand';
+    font-size: 24px;
+    position: relative;
+    color: lightgrey;
+    display: block; 
+}
+
+a:link, a:visited {
+  background-color: #ff1706;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.7em;
+}
+
+a:hover {
+    background-color: rgba(255, 38, 74, 0.877);
 }
